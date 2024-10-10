@@ -5,7 +5,7 @@ const App = () => {
       
       <BrowserRouter>
       <Routes>
-        <Route/>
+        <Route />
       </Routes>
       </BrowserRouter>
 
