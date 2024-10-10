@@ -1,7 +1,12 @@
+import Footer from "../header-footer/Footer"
+import Head from "../header-footer/Head"
 
 const Home = () => {
   return (
-    <div></div>
+    <div>
+        <Head/>
+        <Footer/>
+    </div>
   )
 }
 
