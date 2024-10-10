@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./components/home/Home"
 import './App.css'
+import About from "./components/about/About"
 const App = () => {
   return (
     <div>
@@ -8,6 +9,7 @@ const App = () => {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
       </Routes>
       </BrowserRouter>
 

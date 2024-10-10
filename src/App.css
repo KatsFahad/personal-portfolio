@@ -12,6 +12,7 @@
   position: fixed;
   width: 100%;
   z-index: 1000;
+  height: 2.5rem;
 }
 .head-cont h1{
   margin-left: 5rem;
@@ -32,3 +33,71 @@
 .head-cont a:hover{
   color: black;
 }
+.home-cont{
+  text-align: center;
+  padding-top: 3rem;
+  min-height: 64vh;
+}
+.home-cont div{
+  margin-top: 3rem;
+}
+.home-cont h6{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.home-cont p{
+  font-size: 2rem;
+}
+.home-cont button{
+  padding: 3px 6px;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 10px;
+  padding: .6rem;
+  transition: background-color 0.3s ease;
+}
+.home-cont button:hover{
+  color: chocolate;
+  background-color: lightgray;
+
+}
+.foot-cont{
+  background-color: #F8FAFC;
+  padding: .5rem;
+  border-top: dotted 1px #7E7F7F;
+}
+.foot-cont ul{
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 1rem;
+}
+.foot-cont li{
+  list-style: none;
+}
+.foot-cont p{
+  text-align: center;
+  margin-top: 1rem;
+}
+.foot-cont a{
+  text-decoration: none;
+  color: #7E7F7F;
+}
+.foot-cont a:hover{
+  color: black;
+  text-decoration: underline blue;
+}
+.foot-cont i{
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 1px #7E7F7F dotted;
+  padding: 10px;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+.foot-cont i:hover{
+  color: chocolate;
+  font-weight: bold;
+  background-color: lightgray; 
+}
+
