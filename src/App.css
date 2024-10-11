@@ -100,4 +100,37 @@
   font-weight: bold;
   background-color: lightgray; 
 }
+.contact-b{
+  padding-top: 5rem;
+  height: 58vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-b :nth-last-child(1) button{
+  color: black;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 2rem;
+}
+.contact-b :nth-last-child(2) button{
+  border: none;
+  padding: 10px;
+  color: black;
+  background-color: aquamarine;
+}
+.contact-b ul{
+  display: flex;
+  gap: 2rem;
+}
+.contact-b li{
+  list-style-type: none;
+}
+.contact-b h2,ul,button,p{
+  margin-bottom: 1rem;
+}
+.contact-b div:nth-child(2) p,input,button{
+  margin-bottom: 1rem;
 
+}

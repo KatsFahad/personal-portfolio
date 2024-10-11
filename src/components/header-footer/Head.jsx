@@ -13,7 +13,7 @@ const Head = () => {
           <Link>Projects</Link>
         </li>
         <li>
-          <Link>Contact</Link>
+          <Link to='/contact'>Contact</Link>
         </li>
       </ul>
     </div>
