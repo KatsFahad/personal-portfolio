@@ -17,6 +17,14 @@
 .head-cont h1{
   margin-left: 5rem;
 }
+.head-cont h1:hover{
+  text-shadow: 
+  0 0 10px cyan,
+   0 0 20px cyan,
+   0 0 40px cyan,
+   0 0 80px cyan;
+}
+
 .head-cont ul{
   display: flex;
   gap: 2rem;
@@ -133,4 +141,75 @@
 .contact-b div:nth-child(2) p,input,button{
   margin-bottom: 1rem;
 
+}
+.project-b{
+  padding-top: 5rem;
+}
+.proj1{
+  text-align: center;
+}
+.proj2{
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box-p{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  flex: 0 0 45%;
+}
+.box-p ul li{
+  list-style: none;
+}
+.tools{
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+  margin-top: 8px;
+  border-top: 1px #7E7F7F dotted;
+  
+}
+.tools li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.box-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.box-btn button{
+  padding: 5px 25px;
+}
+.about-b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.about-t{
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 800px;
+}
+.about-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+.about-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
