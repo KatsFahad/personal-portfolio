@@ -1,5 +1,4 @@
-// import { Link } from "react-router-dom";
-
+import img1 from '../../images/Screenshot 2024-10-12 170934.png'
 import ProjectProps from "./ProjectProps";
 
 const ProjectsBody = () => {
@@ -16,6 +15,7 @@ const ProjectsBody = () => {
       </div>
       <div className="proj2">
         <ProjectProps
+        image = {img1}
           title={"Movie site"}
           text={`My colleague and I collaborated on developing an online learning
             platform for Electrical Engineering students at UNIZIK, where I

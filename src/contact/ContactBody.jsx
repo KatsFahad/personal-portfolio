@@ -1,38 +1,65 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 const ContactBody = () => {
   return (
     <div className="contact-b">
+      <div className="contact-b1">
+        <h2>
+          Lets talk about <br /> Your Project
+        </h2>
         <div>
-            <h2>Lets talk about <br /> Your Project</h2>
+          <div className="cont-no">
             <div>
-                <p>+256 780443224</p>
-                <p>+256 740730110</p>
+                <span><i className='bx bxs-phone-call bx-burst' style={{'color':'#2a750a'}} ></i></span>
             </div>
-            <p><span></span>katsfahad008@gmail.com</p>
             <div>
-                <button><span></span>Download Resume</button>
+                <span>+256 780443224</span><br />
+                <span>+256 740730110</span>
             </div>
-            <ul>
-                <li><Link><i className="bx bxl-linkedin"></i></Link></li>
-                <li><Link>< i className="bx bxl-twitter"></i></Link></li>
-                <li><Link><i className="bx bxl-github"></i></Link></li>
-            </ul>
+          </div>
         </div>
+        <p>
+          <span><i className='bx bxl-gmail bx-tada' style={{'color':'#6e750a'}}  ></i></span>katsfahad008@gmail.com
+        </p>
         <div>
-            <p><span>What&apos;s your story ? </span>Get in touch.I&apos;m always Freelancing if the <br /> right project comes along.</p>
-            <div>
-                <input type="text"placeholder="Enter your name" />
-                <br />
-                <input type="text" placeholder="Enter your Email address" />
-                <br />
-                <textarea placeholder="Tell me more about your project, needs, and timeline or make an inquiry"></textarea>
-                <br />
-                <button>Send Message</button>
-            </div>    
+          <button>
+            <span><i className='bx bxs-download' style={{'color':'#22291f'}}  ></i></span>Download Resume
+          </button>
         </div>
-
+        <ul>
+          <li>
+            <Link>
+              <i className="bx bxl-linkedin"></i>
+            </Link>
+          </li>
+          <li>
+            <Link>
+              <i className="bx bxl-twitter"></i>
+            </Link>
+          </li>
+          <li>
+            <Link>
+              <i className="bx bxl-github"></i>
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          <span>What&apos;s your story ? </span>Get in touch.I&apos;m always
+          Freelancing if the <br /> right project comes along.
+        </p>
+        <div className="input-f">
+          <input type="text" placeholder="Enter your name" />
+          <br />
+          <input type="text" placeholder="Enter your Email address" />
+          <br />
+          <textarea placeholder="Tell me more about your project, needs, and timeline or make an inquiry"></textarea>
+          <br />
+          <button>Send Message</button>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactBody
+export default ContactBody;
