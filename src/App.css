@@ -189,7 +189,10 @@
   padding: 5px 0;
   margin-top: 8px;
   border-top: 1px #7E7F7F dotted;
-  
+}
+.box-p p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .tools li{
   display: inline-block;
@@ -200,7 +203,21 @@
   justify-content: space-between;
 }
 .box-btn button{
-  padding: 5px 25px;
+  padding: .7rem 5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.box-btn button:hover{
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+.box-btn div:first-child button{
+  background-color: lightskyblue;
+  border: none;
+}
+.box-btn div:first-child button:hover{
+  background-color: black;
 }
 .about-b{
   display: flex;
