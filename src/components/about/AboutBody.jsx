@@ -15,9 +15,9 @@ const AboutBody = () => {
           with experience in creating dynamic and responsive applications. My
           skills encompass both frontend and backend technologies, and I enjoy
           working on projects that require integration between these layers. I
-          have a foundation in HTML, CSS, JavaScript, and React for building
-          user interfaces, while my backend expertise includes Node.js,
-          Express.js and PostgreSQL for creating scalable and secure server-side
+          have a foundation in <span>HTML, CSS, JavaScript</span>, and <span>React</span> for building
+          user interfaces, while my backend expertise includes 
+          <span>Node.js,Express.js</span> and <span>PostgreSQL</span> for creating scalable and secure server-side
           applications.
         </p>
         <div>

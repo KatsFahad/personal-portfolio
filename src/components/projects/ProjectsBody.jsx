@@ -38,6 +38,8 @@ const ProjectsBody = () => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
+           to='https://movie-react-site.netlify.app'
+          to1='https://github.com/KatsFahad/movie-site-react'
         />
         <ProjectProps
         image={img2}
@@ -49,6 +51,8 @@ const ProjectsBody = () => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
+          to='https://search-data-engine.netlify.app'
+          to1='https://github.com/KatsFahad/search-engine'
         />
         <ProjectProps
         image={img3}
@@ -58,6 +62,8 @@ const ProjectsBody = () => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
+          to='https://task-manager-back-end-hrfw.onrender.com/tasks'
+          to1='https://github.com/KatsFahad/task-manager-back-end'
         />
         <ProjectProps
         image={img4}
@@ -67,6 +73,7 @@ const ProjectsBody = () => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
+          to1='https://github.com/KatsFahad/personal-portfolio'
         />
       </div>
     </div>

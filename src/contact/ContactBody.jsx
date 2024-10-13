@@ -27,18 +27,18 @@ const ContactBody = () => {
         </div>
         <ul>
           <li>
-            <Link>
+            <Link to='https://www.linkedin.com/in/kats-fahad-front-back-end-/' target="_blank">
               <i className="bx bxl-linkedin"></i>
             </Link>
           </li>
           <li>
-            <Link>
-              <i className="bx bxl-twitter"></i>
+            <Link to='https://github.com/KatsFahad' target="_blank">
+              <i className="bx bxl-github"></i>
             </Link>
           </li>
           <li>
-            <Link>
-              <i className="bx bxl-github"></i>
+            <Link to='https://x.com/FahadKats' target="_blank">
+              <i className="bx bxl-twitter"></i>
             </Link>
           </li>
         </ul>

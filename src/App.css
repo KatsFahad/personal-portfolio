@@ -247,13 +247,13 @@
   height: 100vh;
   width: 100%;
   background-color: #f0f0f0;
-  gap: 2rem;
+  gap: 3rem;
 }
 .about-t{
-  background-color: white;
+  background-color: #EEEEEE;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   width: 800px;
 }
 .about-t h4{
@@ -275,13 +275,14 @@
   width: 300px;
 }
 .about-img img{
-  height: 100%;
-  width: 100%;
+  width: 350px; 
+  height: 460px;
   object-fit: cover;
-  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
 }
 .about-t button{
-  margin: 30px auto;
+  margin: 10px auto;
   padding: 15px 30px;
   background-color: #007bff;
   color: white;
@@ -381,4 +382,9 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+.skil-h{
+  font-size: 2rem;
+  color: lightslategray;
+  text-align: center;
 }

@@ -1,6 +1,8 @@
 const Skills = () => {
     return (
-        <div className="skill-cont">
+        <div>
+          <h3 className="skil-h">My Versatile Stack Developer and Collaboration Skills.</h3>
+          <div className="skill-cont">
         <div>
           <i className="bx bxl-html5" style={{"color":"#dd4b25"}}></i>
           <p>HTML</p>
@@ -42,6 +44,7 @@ const Skills = () => {
         <p>GitHub</p>
         </div>
       </div>
+        </div>
       
     );
   };

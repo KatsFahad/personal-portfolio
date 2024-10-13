@@ -16,10 +16,10 @@ const ProjectProps = (props) => {
           </ul>
           <div className="box-btn">
             <div>
-                <Link to={props.to}><button>Check Out</button></Link>
+                <Link to={props.to} target="_blank"><button>Check Out</button></Link>
             </div>
             <div>
-                <Link to={props.to1}><button>Code <span><i className={props.icon}></i></span></button></Link>
+                <Link to={props.to1} target="_blank"><button>Code <span><i className={props.icon}></i></span></button></Link>
             </div>
           </div>
         </div>
