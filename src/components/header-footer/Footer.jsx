@@ -4,13 +4,13 @@ const Footer = () => {
     <div className="foot-cont">
     <ul>
         <li>
-          <Link><i className="bx bxl-linkedin"></i></Link>
+          <Link to='https://www.linkedin.com/in/kats-fahad-front-back-end-/'><i className="bx bxl-linkedin"></i></Link>
+        </li>
+        <li>
+          <Link to='https://github.com/KatsFahad'><i className="bx bxl-github"></i></Link>
         </li>
         <li>
           <Link>< i className="bx bxl-twitter"></i></Link>
-        </li>
-        <li>
-          <Link><i className="bx bxl-github"></i></Link>
         </li>
       </ul>
       <ul>

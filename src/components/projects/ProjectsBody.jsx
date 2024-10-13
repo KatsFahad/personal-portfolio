@@ -1,5 +1,7 @@
 import img1 from "../../images/Screenshot 2024-10-12 170934.png";
 import img2 from '../../images/Screenshot 2024-10-13 124553.png'
+import img3 from '../../images/Screenshot 2024-10-13 131708.png'
+import img4 from '../../images/Screenshot 2024-10-13 145305.png'
 import ProjectProps from "./ProjectProps";
 
 const ProjectsBody = () => {
@@ -9,6 +11,15 @@ const ProjectsBody = () => {
     { name: "Strapi" },
   ];
   const searchEngine = [
+    {name: 'React'},
+    {name: 'CSS'}
+  ]
+  const crudO = [
+    {name: 'Node.js'},
+    {name: 'Express.js'},
+    {name: 'Prisma ORM'}
+  ]
+  const portF = [
     {name: 'React'},
     {name: 'CSS'}
   ]
@@ -40,46 +51,19 @@ const ProjectsBody = () => {
           icon={"bx bxl-github"}
         />
         <ProjectProps
-          title={"Movie site"}
-          text={`My colleague and I collaborated on developing an online learning
-            platform for Electrical Engineering students at UNIZIK, where I
-            served as the project manager and also personally developed the
-            entire frontend. This innovative platform offers students access to
-            course outlines, downloadable resources like handouts, exam past
-            questions, and textbooks, along with a CGPA calculator for grade
-            tracking students grade. Additionally, we maintain an informative
-            blog section for updates in the field of electrical engineering.`}
-          tool={movieSite.map((tool, index) => {
+        image={img3}
+          title={"Dynamic CRUD API"}
+          text={`This project is a backend built using PostgreSQL as the database, Node.js as the runtime environment, and Express for handling HTTP requests and routing. It utilizes Prisma, an ORM (Object Relational Mapping) tool, to perform CRUD (Create, Read, Update, Delete) operations on the database.`}
+          tool={crudO.map((tool, index) => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
         />
         <ProjectProps
-          title={"Movie site"}
-          text={`My colleague and I collaborated on developing an online learning
-            platform for Electrical Engineering students at UNIZIK, where I
-            served as the project manager and also personally developed the
-            entire frontend. This innovative platform offers students access to
-            course outlines, downloadable resources like handouts, exam past
-            questions, and textbooks, along with a CGPA calculator for grade
-            tracking students grade. Additionally, we maintain an informative
-            blog section for updates in the field of electrical engineering.`}
-          tool={movieSite.map((tool, index) => {
-            return <li key={index}>{tool.name}</li>;
-          })}
-          icon={"bx bxl-github"}
-        />
-        <ProjectProps
-          title={"Movie site"}
-          text={`My colleague and I collaborated on developing an online learning
-            platform for Electrical Engineering students at UNIZIK, where I
-            served as the project manager and also personally developed the
-            entire frontend. This innovative platform offers students access to
-            course outlines, downloadable resources like handouts, exam past
-            questions, and textbooks, along with a CGPA calculator for grade
-            tracking students grade. Additionally, we maintain an informative
-            blog section for updates in the field of electrical engineering.`}
-          tool={movieSite.map((tool, index) => {
+        image={img4}
+          title={"Personal Portfolio Website"}
+          text={`My personal portfolio website serves as a showcase of my skills, projects, and professional journey.I built it with  web technologies to create a dynamic and responsive platform where visitors can learn about me, explore my work, and get in touch easily.`}
+          tool={portF.map((tool, index) => {
             return <li key={index}>{tool.name}</li>;
           })}
           icon={"bx bxl-github"}
