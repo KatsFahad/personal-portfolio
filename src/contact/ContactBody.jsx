@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import pdf from '../images/Resumep.pdf'
+
 const ContactBody = () => {
   return (
     <div className="contact-b">
@@ -9,35 +11,55 @@ const ContactBody = () => {
         <div>
           <div className="cont-no">
             <div>
-                <span><i className='bx bxs-phone-call bx-burst' style={{'color':'#2a750a'}} ></i></span>
+              <span>
+                <i
+                  className="bx bxs-phone-call bx-burst"
+                  style={{ color: "#2a750a" }}
+                ></i>
+              </span>
             </div>
             <div>
-                <span>+256 780443224</span><br />
-                <span>+256 740730110</span>
+              <span>+256 780443224</span>
+              <br />
+              <span>+256 740730110</span>
             </div>
           </div>
         </div>
         <p>
-          <span><i className='bx bxl-gmail bx-tada' style={{'color':'#6e750a'}}  ></i></span>katsfahad008@gmail.com
+          <span>
+            <i
+              className="bx bxl-gmail bx-tada"
+              style={{ color: "#6e750a" }}
+            ></i>
+          </span>
+          katsfahad008@gmail.com
         </p>
         <div>
-          <button>
-            <span><i className='bx bxs-download' style={{'color':'#22291f'}}  ></i></span>Download Resume
-          </button>
+          <a href={pdf} download='My_Resume'>
+            <button>
+              <span>
+                <i className="bx bxs-download" style={{ color: "#22291f" }}></i>
+              </span>
+              Download Resume
+            </button>
+          </a>
         </div>
         <ul>
           <li>
-            <Link to='https://www.linkedin.com/in/kats-fahad-front-back-end-/' target="_blank">
+            <Link
+              to="https://www.linkedin.com/in/kats-fahad-front-back-end-/"
+              target="_blank"
+            >
               <i className="bx bxl-linkedin"></i>
             </Link>
           </li>
           <li>
-            <Link to='https://github.com/KatsFahad' target="_blank">
+            <Link to="https://github.com/KatsFahad" target="_blank">
               <i className="bx bxl-github"></i>
             </Link>
           </li>
           <li>
-            <Link to='https://x.com/FahadKats' target="_blank">
+            <Link to="https://x.com/FahadKats" target="_blank">
               <i className="bx bxl-twitter"></i>
             </Link>
           </li>

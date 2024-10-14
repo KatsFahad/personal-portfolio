@@ -124,7 +124,8 @@
   height: 58vh;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 8rem;
+  margin-bottom: 7rem;
+  /* background-color: #EEEEEE; */
 }
 .contact-b :nth-last-child(1) button{
   color: black;
@@ -167,6 +168,7 @@
 }
 .project-b{
   padding-top: 5rem;
+  background-color: #EEEEEE;
 }
 .proj1{
   text-align: center;
@@ -314,6 +316,7 @@
   font-weight: bold;
   margin-top: 2rem;
   font-size: 1.5rem;
+  
 }
 .input-f input{
   border: 1px solid #6C6F72;
