@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pdf from '../images/Resumep.pdf'
+import pdf from '../images/Resumep1.pdf'
 
 const ContactBody = () => {
   return (
